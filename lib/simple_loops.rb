@@ -1,5 +1,5 @@
 # Write your methods here
-=begin
+
 def loop_message_five_times(message)
   count = 0 
   while count < 5 
@@ -8,7 +8,7 @@ def loop_message_five_times(message)
     counts += 1 
   end 
 end 
-
+=begin 
 def loop_message_n_times(message, limit)
   count = 0
   while count < limit 
