@@ -27,6 +27,7 @@ def output_array(array)
  end
 end 
 
+=begin
 def return_string_array(array)
   count = 0
   new_array =  []
@@ -38,5 +39,18 @@ def return_string_array(array)
   end
 
   new_array
+end
+=end 
+
+def return_string_array(array)
+  count = 0
+
+  while count < array.length
+
+  array[count] = array[count].to_s
+  count =+ 1
+  end
+
+  array
 end
  
